@@ -45,12 +45,6 @@ function Projects() {
             <p className="text-gray-300">
               {projects[selectedItemIndex].description}
             </p>
-            <p className="text-gray-300">
-              Implemented data integration and automation between Netbox and
-              vSphere, integrating Jenkins to establish an automated pipeline.
-              Technical Stack: Python, Jenkins, Pyvmomi, Pyvim, Pandas, VMware,
-              Netbox, REST API, GIT/Azure DevOps, vSphere automation SDK.
-            </p>
           </div>
         </dive>
       </div>
