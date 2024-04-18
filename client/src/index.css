@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Jersey+10+Charted&family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Jersey+10+Charted&family=Jersey+15&family=Monoton&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2 {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+
+* {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* h1 {
+  margin: 0 !important;
+  padding: 0 !important;
+} */
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #29292b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #535353;
+  border-radius: 10px;
+}
+
+i {
+  cursor: pointer;
+}
+i:hover {
+  color: #f5f5f5;
+}
+
+/* loading page css */
+.d {
+  animation: d 1s infinite;
+}
+
+@keyframes d {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.a {
+  animation: a 1s infinite;
+}
+
+@keyframes a {
+  0% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.n {
+  animation: n 1s infinite;
+}
+
+@keyframes n {
+  0% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.i {
+  animation: i 1s infinite;
+}
+
+@keyframes i {
+  0% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.e {
+  animation: e 1s infinite;
+}
+
+@keyframes e {
+  0% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.l {
+  animation: l 1s infinite;
+}
+
+@keyframes l {
+  0% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
