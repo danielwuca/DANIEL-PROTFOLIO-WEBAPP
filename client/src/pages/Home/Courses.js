@@ -38,17 +38,11 @@ function Courses() {
             <h1 className="text-secondary text-2xl">
               {courses[selectedItemIndex].title}
             </h1>
-            {/* <p className="text-white">
+            <p className="text-white">
               {courses[selectedItemIndex].description}
-            </p> */}
-            <p className="text-gray-300">
-              Implemented data integration and automation between Netbox and
-              vSphere, integrating Jenkins to establish an automated pipeline.
-              Technical Stack: Python, Jenkins, Pyvmomi, Pyvim, Pandas, VMware,
-              Netbox, REST API, GIT/Azure DevOps, vSphere automation SDK.
             </p>
           </div>
-          <img src={project02} alt="" className="h-50 w-80" />
+          <img src={courses[selectedItemIndex].image} alt="" className="h-50 w-80" />
         </div>
       </div>
     </div>
