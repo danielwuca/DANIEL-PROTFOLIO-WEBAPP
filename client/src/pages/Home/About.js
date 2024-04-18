@@ -10,14 +10,18 @@ function About() {
     <div>
       <SectionTitle title="About" />
 
-      <div className="flex w-full items-center sm:flex-col">
+      <div className="flex w-full items-center sm:flex-col gap-8">
         <div className="h-[50vh] w-1/2 sm:w-full">
-          <dotlottie-player
-            src={lottiURL}
-            background="transparent"
-            speed="1"
-            autoplay
-          ></dotlottie-player>
+          {lottiURL.includes("lottie") ? (
+            <dotlottie-player
+              src={lottiURL}
+              background="transparent"
+              speed="1"
+              autoplay
+            ></dotlottie-player>
+          ) : (
+            <img src={lottiURL} alt="" className="h-full w-full object-cover" />
+          )}
         </div>
 
         <div className="flex flex-col gap-5 w-1/2 sm:w-full">
