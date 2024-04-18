@@ -3,6 +3,7 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { HideLoading, ReloadData, ShowLoading } from "../../redux/rootSlice";
 import axios from "axios";
+import TextArea from "antd/es/input/TextArea";
 
 function AdminExperiences() {
   const [messageApi, contextHolder] = message.useMessage();
@@ -135,7 +136,7 @@ function AdminExperiences() {
               <Input placeholder="Title" />
             </Form.Item>
             <Form.Item name="description" label="Description">
-              <Input placeholder="Description" />
+              <TextArea placeholder="Description" />
             </Form.Item>
             <div className="flex justify-end">
               <button
