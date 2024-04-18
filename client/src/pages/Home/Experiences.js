@@ -40,24 +40,7 @@ function Experiences() {
             {experiences[selectedItemIndex].company}
           </h1>
           <p className="text-gray-300">
-            Python Automation: Developed Python scripts for seamless data
-            integration between NetBox and vSphere, enhancing system
-            interoperability and efficiency. MPDS CAD QA Testing: Leveraged
-            Eggplant senseTalk for automated testing in CAD MPDS, significantly
-            improving system performance and reliability. Data Integration and
-            Management: Automated the extraction, cleaning, and transformation
-            of virtualization and device configuration data from NetBox using
-            Pandas. Utilized Matplotlib and Seaborn for generating insightful
-            visualizations, facilitating data-driven decision-making. Project
-            Management: Actively participated in the New Generation 911 /
-            Telephony project, collaborating with business analysts to ensure
-            timely delivery through effective project management techniques and
-            stakeholder coordination. Administration Hiring: Provided assistance
-            in the recruitment and hiring process for administrative positions,
-            contributing to the efficient operation of the organization.
-            Front-end Development: Assisted in the design and operation of mCAD
-            web applications using JavaScript/TypeScript, enhancing user
-            interface and experience.
+            {experiences[selectedItemIndex].description}
           </p>
         </div>
       </div>
