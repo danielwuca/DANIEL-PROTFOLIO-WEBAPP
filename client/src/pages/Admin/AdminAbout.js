@@ -48,7 +48,7 @@ function AdminAbout() {
           <TextArea placeholder="Description1" />
         </Form.Item>
         <Form.Item name="description2" label="Description2">
-          <Input placeholder="Description2" />
+          <TextArea placeholder="Description2" />
         </Form.Item>
         <Form.Item name="skills" label="Skills">
           <Input placeholder="Skills" />
