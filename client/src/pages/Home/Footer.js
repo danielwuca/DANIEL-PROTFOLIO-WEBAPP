@@ -5,7 +5,10 @@ function Footer() {
     <div className="py-10">
       <div className="h-[2px] w-full bg-gray-500"></div>
       <div className="flex items-center justify-center flex-col mt-2">
-        <h1 className="text-gray-500">Version 1.1.0 Released (admin portal bug fixes, progress on dynamic animations)</h1>
+        <h1 className="text-gray-500">
+          Version 1.2.1 Released (adding chatbot module, progress on chatbot
+          intelligent and dynamic animations)
+        </h1>
         <h3 className="text-gray-500">Developed By Daniel Wu</h3>
         <div className="flex flex-row items-center justify-center gap-1">
           <h5 className="text-gray-500">Backend Powered By MongoDB</h5>
