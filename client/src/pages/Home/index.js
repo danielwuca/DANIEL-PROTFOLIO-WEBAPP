@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import LeftSide from "./LeftSide";
 import { useSelector } from "react-redux";
 import Chatbot from "./Chatbot";
+import ContactForm from "../../components/ContactForm";
 
 function Home() {
   const { portfolioData } = useSelector((state) => state.root);
@@ -24,9 +25,11 @@ function Home() {
           <Projects />
           <Courses />
           <Contact />
-          <Footer />
           <Chatbot />
           <LeftSide />
+          <h2 className="text-3xl text-cyan-300">Contact Daniel:</h2>
+          <ContactForm />
+          <Footer />
         </div>
       )}
     </div>
