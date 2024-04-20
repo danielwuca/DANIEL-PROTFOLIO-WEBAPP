@@ -10,7 +10,9 @@ function Header() {
   };
   return (
     <div className="p-5 bg-primary flex justify-between">
-      <h2 className="text-secondary text-5xl font-semibold">Daniel Tech: v1</h2>
+      <h2 className="text-orange-500 text-5xl font-semibold">
+        Daniel Tech: v1
+      </h2>
       <button className="text-gray-400 text-2xl" onClick={scrollToBottom}>
         Contact Us
       </button>

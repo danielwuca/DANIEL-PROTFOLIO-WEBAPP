@@ -27,7 +27,7 @@ function Home() {
           <Contact />
           <Chatbot />
           <LeftSide />
-          <h2 className="text-3xl text-cyan-300">Contact Daniel:</h2>
+          <h2 className="text-3xl text-orange-500">Contact Daniel:</h2>
           <ContactForm />
           <Footer />
         </div>
