@@ -1,6 +1,5 @@
 import React from "react";
 import SectionTitle from "../../components/SectionTitle";
-import project02 from "../../project02.png";
 import { useSelector } from "react-redux";
 
 function Courses() {
@@ -42,7 +41,11 @@ function Courses() {
               {courses[selectedItemIndex].description}
             </p>
           </div>
-          <img src={courses[selectedItemIndex].image} alt="" className="h-50 w-80" />
+          <img
+            src={courses[selectedItemIndex].image}
+            alt=""
+            className="h-50 w-80"
+          />
         </div>
       </div>
     </div>
