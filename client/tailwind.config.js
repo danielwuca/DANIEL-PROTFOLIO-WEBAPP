@@ -12,6 +12,8 @@ module.exports = {
         nasa:
           // "url('https://images.unsplash.com/photo-1446776877081-d282a0f896e2?q=80&w=3872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
           "url('https://wallpapers.com/images/hd/nasa-space-satellite-w0a0am5efb7l6nuw.webp')",
+        iphone:
+          "url('https://cdn.hero.page/wallpapers/121fb583-c65c-4988-bd92-06e0e9b0ed2e-minimalist-mountain-peaks-wallpaper-wallpaper-1.png')",
       },
     },
     screens: {

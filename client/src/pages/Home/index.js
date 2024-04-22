@@ -18,7 +18,7 @@ function Home() {
     <div>
       <Header />
       {portfolioData && (
-        <div className="bg-primary px-40 bg-nasa bg-fixed bg-center bg-cover bg-no-repeat sm:px-5 bg-fixed-mobile">
+        <div className="bg-primary px-40 bg-nasa bg-fixed bg-center bg-cover bg-no-repeat sm:px-5 sm:bg-iphone">
           <Intro />
           <About />
           <Experiences />
