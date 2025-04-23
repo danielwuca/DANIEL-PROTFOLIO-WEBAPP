@@ -22,7 +22,7 @@ function LeftSide() {
           </button>
 
           <a
-            href="https://www.linkedin.com/in/zhenyu-wu-a3a989257"
+            href="https://www.linkedin.com/in/daniel-wu-a3a989257"
             target="_blank"
             rel="noopener noreferrer"
           >
